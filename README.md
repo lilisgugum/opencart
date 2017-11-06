@@ -66,12 +66,12 @@ Persetujuan kebijakan syarat dan ketentuan dalam menggunakan Opencart, pilih Pro
 
 8.	Pindahkan file config-dist.php ke config.php
      ```
-     $ mv config-dist.php config.php
+     # mv config-dist.php config.php
      ```
 
 9.  Pindahkan file admin/config-dist.php ke admin/config.php
      ```
-     $ mv admin/config-dist.php admin/config.php
+     # mv admin/config-dist.php admin/config.php
      ```
 
 10. Ubah otorisasi kepemilikan ke user www-data (webserver)
@@ -135,6 +135,8 @@ Cara pemakaian OpenCart adalah sebagai berikut :
     1. Bagi pengguna awam saat instalasi pasti mengalami kebingungan ketika harus rename config-dist menjadi config dan harus delete            folder install, tidak secara otomatis terhapus.
     2. Pilihan theme dan modul yang sederhana, jika mau yang bagus harus membayar.
     3. Masih susah dalam otak-atik function.
+
+- Bandingkan dengan aplikasi web lain yang sejenis
 
 
 # Referensi
