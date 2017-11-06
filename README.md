@@ -1,4 +1,4 @@
-<h1 align="center"><img src="http://networks-india.com/wp-content/uploads/2015/05/opencart-logo_400x300-300x225.png"></h1>
+<h1 align="center"><img src="http://whh01-inmotionhosting1.netdna-ssl.com/img/cms-assets/logo-opencart.svg"></h1>
 
 [Sekilas Tentang](#sekilas-tentang) | [Instalasi](#instalasi) | [Konfigurasi](#konfigurasi) | [Maintenance](#maintenance) | [Otomatisasi](#otomatisasi) | [Cara Pemakaian](#cara-pemakaian) | [Pembahasan](#pembahasan) | [Referensi](#referensi)
 
