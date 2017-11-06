@@ -111,6 +111,12 @@ Persetujuan kebijakan syarat dan ketentuan dalam menggunakan Opencart, pilih Pro
 # Otomatisasi
 [`^ kembali ke atas ^`](#)
 
+Jika kalian masih kesulitan dalam meng-install **OpenCart**, terdapat dua cara alternatif, yaitu dengan cara: Pertama adalah dengan menggunakan script shell yang otomatis akan menjalankan semua perintah instalasi pada terminal. Contoh script shell yang digunakan dalam proses instalasi OpenCart dapat dilihat di setup.sh. Kedua adalah dengan melakukan instalasi di localhost terlebih dahulu, yaitu men-download file OpenCart di web resmi [OpenCart](https://www.opencart.com/index.php?route=cms/download). Kemudian setelah selesai konfigurasi, maka anda dapat melakukan upload file website di hosting. Berikut langkah-langkah untuk melakukan instalasinya:
+- Download software xampp di https://www.apachefriends.org/download.html untuk menginstal apache, mysql, dan php sesuai kebutuhan.
+- Ekstrak file yang sudah di download di https://www.opencart.com/index.php?route=cms/download di sembarang folder (sebagai temporary     saja).
+- Pindahkan file yang sudah diekstrak tersebut ke folder htdocs (C:\xampp\htdocs)
+- Agar mudah dalam penamaan, rename folder tadi menjadi opencart
+
 # Cara Pemakaian
 [`^ kembali ke atas ^`](#)
 
