@@ -18,7 +18,7 @@
 - MySQL 5.0+
 - RAM 2048 MB
 
-# Proses instaslasi:
+#### Proses instaslasi:
 
 Kunjungi alamat IP web server yang telah dibuat untuk meneruskan instalasi CMS Opencart
 Persetujuan kebijakan syarat dan ketentuan dalam menggunakan Opencart, pilih Proses Instalasi:
