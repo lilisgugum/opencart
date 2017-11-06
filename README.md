@@ -114,8 +114,29 @@ Persetujuan kebijakan syarat dan ketentuan dalam menggunakan Opencart, pilih Pro
 # Cara Pemakaian
 [`^ kembali ke atas ^`](#)
 
+Cara pemakaian OpenCart adalah sebagai berikut :
+1. Login terlebih dahulu pada halaman admin
+2. Setelah login, akan masuk ke halaman dashboard
+3. Menu disebelah kiri adalah untuk modifikasi kebutuhan konten, seperti menu kategori, produk, tema dan lain sebagainya. 
+4. Untuk menambahkan kategori, klik menu katalog lalu akan ada sub menu kategori, pada kolom action
+
 # Pembahasan
 [`^ kembali ke atas ^`](#)
+- Pendapat anda tentang aplikasi web ini:
+  OpenCart sebagai CMS gratis dan open source mempunyai kelebihan dan kekurangan. Adapun kelebihan dan kekurangan dari OpenCart sebagai   berikut:
+  - Kelebihan:
+    1. Cara penginstalannya mudah diikuti dan dipahami.
+    2. Adanya tool backup dan restore untuk website dan database.
+    3. Multi mata uang, bisa menggunakan lebih dari satu mata uang dengan nilai konversi   antar mata uang.
+    4. Kategori bertingkat dan tidak terbatas.
+    5. Template dapat diganti dengan mudah dan tersedia template gratis dan berbayar.
+
+  - Kekurangan:
+    Kekurangan dari OpenCart adalah
+    1. Bagi pengguna awam saat instalasi pasti mengalami kebingungan ketika harus rename config-dist menjadi config dan harus delete            folder install, tidak secara otomatis terhapus.
+    2. Pilihan theme dan modul yang sederhana, jika mau yang bagus harus membayar.
+    3. Masih susah dalam otak-atik function.
+
 
 # Referensi
 [`^ kembali ke atas ^`](#)
