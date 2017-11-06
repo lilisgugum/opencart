@@ -139,3 +139,6 @@ Cara pemakaian OpenCart adalah sebagai berikut :
 
 # Referensi
 [`^ kembali ke atas ^`](#)
+1. [About OpenCart]() - OpenCart
+2. [Installing OpenCart on Ubuntu 14.04] (https://fosskb.in/2016/02/06/installing-opencart-on-ubuntu-14-04/) - OpenCart 
+
