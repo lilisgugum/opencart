@@ -132,7 +132,6 @@ Cara pemakaian OpenCart adalah sebagai berikut :
     5. Template dapat diganti dengan mudah dan tersedia template gratis dan berbayar.
 
   - Kekurangan:
-    Kekurangan dari OpenCart adalah
     1. Bagi pengguna awam saat instalasi pasti mengalami kebingungan ketika harus rename config-dist menjadi config dan harus delete            folder install, tidak secara otomatis terhapus.
     2. Pilihan theme dan modul yang sederhana, jika mau yang bagus harus membayar.
     3. Masih susah dalam otak-atik function.
