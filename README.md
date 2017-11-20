@@ -1,7 +1,7 @@
 <h1 align="center"><img src="http://whh01-inmotionhosting1.netdna-ssl.com/img/cms-assets/logo-opencart.svg"></h1>
 
-[Sekilas Tentang](#sekilas-tentang) | [Instalasi](#instalasi) | [Konfigurasi](#konfigurasi) | [Maintenance](#maintenance) | [Otomatisasi](#otomatisasi) | [Cara Pemakaian](#cara-pemakaian) | [Pembahasan](#pembahasan) | [Referensi](#referensi)
-:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:
+[Sekilas Tentang](#sekilas-tentang) | [Instalasi](#instalasi) | [Konfigurasi](#konfigurasi) | [Maintenance](#maintenance) | [Cara Pemakaian](#cara-pemakaian) | [Pembahasan](#pembahasan) | [Referensi](#referensi)
+:---:|:---:|:---:|:---:|:---:|:---:|:---:
 
 # Sekilas Tentang
 [`^ kembali ke atas ^`](#)
