@@ -297,9 +297,9 @@ Cara pemakaian OpenCart adalah sebagai berikut :
 
 - Bandingkan dengan aplikasi web lain yang sejenis
   Dalam segi Fitur OpenCart vs Prestashop :
-  - Management untuk konten : dalam hal ini saya lebih menyukai Opencart daripada Prestashop, terlihat daripada menu-menu didalam backend administratornya untuk mengatur kategori kategori dan konten, Opencart lebih mudah dipahami untuk mengelola isi konten dan mengaturnya termasuk informasi dan halaman halaman lain yang ingin anda buat.
-  - SEO : untuk hal ini saya merujuk pada Prestashop yang lebih bagus daripada Opencart, terlebih sudah adanya fitur meta-title didalam default Prestashop yang mana "Judul" atau meta-title merupakan inti terpenting dalam SEO selain daripada Url, dan struktur lainnya untuk SEO saya kira ada kesamaan.
-  - Mengelola tema : disini letak unggulnya Opencart atas Prestashop, banyak sekali tema di marketplace template yang saya temui untuk Opencart. Hal ini sudah menjadi bukti popularitasnya dikalangan Designer Template.
+  - Management untuk konten : Dari menu-menu didalam backend administratornya untuk mengatur kategori-kategori dan konten, OpenCart lebih mudah dipahami untuk mengelola isi konten dan mengaturnya termasuk informasi dan halaman-halaman lain yang ingin dibuat.
+  - SEO : Prestashop yang lebih unggul daripada OpenCart, terlebih sudah adanya fitur meta-title didalam default Prestashop yang mana "Judul" atau meta-title merupakan inti terpenting dalam SEO selain daripada Url.
+  - Mengelola tema : OpenCart lebih unggul dari Prestashop, banyak sekali tema di marketplace template untuk Opencart.
   - Kapasitas module / addon : dalam hal ini kedua-duanya cukup banyak untuk kategori module extension.
 
 
@@ -307,5 +307,5 @@ Cara pemakaian OpenCart adalah sebagai berikut :
 [`^ kembali ke atas ^`](#)
 1. [About OpenCart]() - OpenCart
 2. [Installing OpenCart on Ubuntu 14.04](https://fosskb.in/2016/02/06/installing-opencart-on-ubuntu-14-04/) - OpenCart 
-3. [Perbandingan OpenCart dan Prestashop](https://www.mfahmi.net/2013/07/perbandingan-opencart-dan-prestashop) - Perbandingan
+3. [Perbandingan OpenCart dan Prestashop](https://www.mfahmi.net/2013/07/perbandingan-opencart-dan-prestashop) - Perbandingan dengan Web Sejenis
 
