@@ -144,25 +144,25 @@ Persetujuan kebijakan syarat dan ketentuan dalam menggunakan Opencart, pilih Pro
 [`^ kembali ke atas ^`](#)
 
 1. Konfigurasi Batas upload file
-   untuk menentukan konfigurasi batas upload file  pada sistem Opencart yaitu sebagai berikut:
+   Untuk menentukan konfigurasi batas upload file  pada sistem OpenCart yaitu sebagai berikut:
    
-   - Masuk ke menu system, dan pilih sub menu setting
+   - Masuk ke menu *system*, dan pilih sub menu *setting*
    
    ![konfigurasi_1](https://github.com/lilisgugum/opencart/blob/master/pictures/konfigurasi_1.jpg)
     
    
-   - Maka akan muncul tampilan store list seperti berikut, kemudian pilih action edit
+   - Maka akan muncul tampilan *store* list seperti berikut, kemudian pilih *action edit*
    
    ![konfigurasi_2](https://github.com/lilisgugum/opencart/blob/master/pictures/konfigurasi_2.jpg)
     
    
-   - Pilih tab menu server lalu pilih bagain uploads setting sesuai kebutuhan
+   - Pilih tab menu *server* lalu pilih bagian *uploads setting* sesuai kebutuhan
 
    ![konfigurasi_3](https://github.com/lilisgugum/opencart/blob/master/pictures/konfigurasi_3.jpg)
    ![konfigurasi_4](https://github.com/lilisgugum/opencart/blob/master/pictures/konfigurasi_4.jpg)
     
 
-   - Pada bagian server ini dapat juga untuk mengatur security dan pengaturan umum server seperti berikut :
+   - Pada bagian server ini dapat juga untuk mengatur *security* dan pengaturan umum server seperti berikut :
      
    ![konfigurasi_5](https://github.com/lilisgugum/opencart/blob/master/pictures/konfigurasi_5.jpg)
    ![konfigurasi_6](https://github.com/lilisgugum/opencart/blob/master/pictures/konfigurasi_6.jpg)
@@ -171,77 +171,67 @@ Persetujuan kebijakan syarat dan ketentuan dalam menggunakan Opencart, pilih Pro
 2. Konfigurasi tema baru
    untuk mengganti tema bawaan (default) pada opencart caranya sebagai berikut:
    
-   - Masuk ke menu extension lalu pilih submenu marketplace
+   - Masuk ke menu *extension* lalu pilih submenu *marketplace*
    
    ![konfigurasi_7](https://github.com/lilisgugum/opencart/blob/master/pictures/konfigurasi_7.jpg)
 
    
-   - Maka akan muncul tampilan extension marketplace sebagai berikut:
+   - Maka akan muncul tampilan *extension marketplace* sebagai berikut:
    
    ![konfigurasi_8](https://github.com/lilisgugum/opencart/blob/master/pictures/konfigurasi_8.jpg)
    
    
-   - Pilih theme pada filter kategori ekstension seperti gambar berikut:
+   - Pilih *theme* pada filter kategori *extension* seperti gambar berikut:
    
    ![konfigurasi_9](https://github.com/lilisgugum/opencart/blob/master/pictures/konfigurasi_9.jpg)
    
    
    - Maka akan mucul banyak pilihan tema, pilih tema sesuai kebutuhan ecommerce. hanya ada satu tema yang free, yang lainnya berbayar        semua
-   - Setelah mendapatkan tema pilih menu extensions dan klik submenu installer, lalu pilih tema yang telah kita dapatkan tadi dan klik        upload
+   - Setelah mendapatkan tema pilih menu extensions dan klik submenu *installer*, lalu pilih tema yang telah kita dapatkan tadi dan klik      upload
    
    ![konfigurasi_10](https://github.com/lilisgugum/opencart/blob/master/pictures/konfigurasi_10.jpg)
    
    
-   - Langkah terakhir pilih menu extensions dan klik submenu ekstensions, install tema yang telah kita upload tadi, lalu klik action          edit, ubah menjadi enabled. dan tema selesai diganti
+   - Langkah terakhir pilih menu *extensions* dan klik submenu *extensions*, install tema yang telah kita upload tadi, lalu klik *action* edit, ubah menjadi enabled. dan tema selesai diganti
    
    ![konfigurasi_11](https://github.com/lilisgugum/opencart/blob/master/pictures/konfigurasi_11.jpg)
    
-   Untuk menambah konfigurasi lain seperti login dengan google/ social media dukungan kurir (Indonesia),  payment gateway Indonesia dapat dilakukan dengan install modules masing-masing, lalu konfigurasi kan di menu extensions.
+   Untuk menambah konfigurasi lain seperti *login* dengan google/ social media dukungan kurir (Indonesia),  payment gateway Indonesia dapat dilakukan dengan install modules masing-masing, lalu konfigurasi kan di menu *extensions*.
 
 # Maintenance
 [`^ kembali ke atas ^`](#)
 
 Maintenance pada opencart meliputi 3 bagian yaitu sebagai berikut:
 1. Backup & Restore
-Seringkali untuk kebutuhan suatu ecommerce memerlukan backup dan restore database untuk keamanan dan duplikasi data. pada CMS Opencart untuk backup dan restore caranya sebagai berikut:
-   - Login ke dalam admin toko kita
-   - Klik menu system lalu pilih maintenance an klik sub menu backup & restore
-   
-   
+Seringkali untuk kebutuhan suatu ecommerce memerlukan backup dan restore database untuk keamanan dan duplikasi data. pada CMS OpenCart untuk *backup* dan *restore* caranya sebagai berikut:
+   - *Login* ke dalam admin toko kita
+   - Klik menu *system* lalu pilih *maintenance* dan klik sub menu *backup & restore*
+      
    ![maintenance_1](https://github.com/lilisgugum/opencart/blob/master/pictures/maintenance_1.jpg)
    
-   -	maka akan muncul tampilan sebagai berikut:
+   -	Maka akan muncul tampilan sebagai berikut:
    
    ![maintenance_2](https://github.com/lilisgugum/opencart/blob/master/pictures/maintenance_2.jpg)
    
-   - Untuk backup database pilih tab menu backup, lalu pilih tabel apa saja yang akan kita backup kemudian klik export dan database akan      terbackup dalam bentuk .sql
+   - Untuk *backup* database pilih tab menu *backup*, lalu pilih tabel apa saja yang akan kita backup kemudian klik *export* dan database akan terbackup dalam bentuk .sql
    
    ![maintenance_3](https://github.com/lilisgugum/opencart/blob/master/pictures/maintenance_3.jpg)
    
-   -	Untuk restore dataase pilih tab menu restore, lalu pilih database dari komputer kita yang akan di import/ restore, tunggu maka kan      tertampil progress upload database seperti berikut:
+   -	Untuk *restore* database pilih tab menu restore, lalu pilih database dari komputer kita yang akan di *import/restore*, tunggu maka kan tertampil progress upload database seperti berikut:
    
    ![maintenance_4](https://github.com/lilisgugum/opencart/blob/master/pictures/maintenance_4.jpg)
    
    
-2. Uploads
-Bagian upload pada maintenance ini, berisi daftar-daftar file / module/ themes yang telah kita upload ke dalam sistem CMS Opencart, dimana pada halaman ini kita bisa search by filter date atau meghapus data yang telah diupload. untuk masuk ke bagian upload ini sama seperti backup & restore pilih menu system lalu pilih maintenance dan klik submenu upload. tampiannya sebagai berikut:
+2. *Uploads*
+Bagian upload pada maintenance ini, berisi daftar-daftar file / module/ *themes* yang telah kita upload ke dalam sistem CMS OpenCart, dimana pada halaman ini kita bisa *search by filter date* atau menghapus data yang telah di upload. Untuk masuk ke bagian upload ini sama seperti *backup & restore* pilih menu *system* lalu pilih *maintenance* dan klik submenu *upload*. tampiannya sebagai berikut:
 
    ![maintenance_5](https://github.com/lilisgugum/opencart/blob/master/pictures/maintenance_5.jpg)
    
-3. Error Log
-Pesan error adalah petunjuk awal terpenting dalam memperbaiki toko online yang bermasalah. Pada umumnya, toko online yang mengalami error pasti akan menampilkan pesan di halamannya. Untuk itu kita perlu mengetahui error log terutama di toko online Opencart. untuk melihat error logs pada toko online Opencart caranya masuk ke menu setting, pilih maintenance lalu klik submenu error logs maka akan tertampil halaman error logs sebagai berikut:
+3. *Error Log*
+Pesan *error* adalah petunjuk awal terpenting dalam memperbaiki toko online yang bermasalah. Pada umumnya, toko online yang mengalami *error* pasti akan menampilkan pesan di halamannya. Untuk itu kita perlu mengetahui *error log* terutama di toko online OpenCart. Untuk melihat *error logs* pada toko online OpenCart caranya masuk ke menu *setting*, pilih *maintenance* lalu klik submenu *error logs* maka akan tertampil halaman *error logs* sebagai berikut:
 
    ![maintenance_6](https://github.com/lilisgugum/opencart/blob/master/pictures/maintenance_6.jpg)
    
-
-# Otomatisasi
-[`^ kembali ke atas ^`](#)
-
-Jika kalian masih kesulitan dalam meng-install **OpenCart**, terdapat dua cara alternatif, yaitu dengan cara: Pertama adalah dengan menggunakan script shell yang otomatis akan menjalankan semua perintah instalasi pada terminal. Contoh script shell yang digunakan dalam proses instalasi OpenCart dapat dilihat di setup.sh. Kedua adalah dengan melakukan instalasi di localhost terlebih dahulu, yaitu men-download file OpenCart di web resmi [OpenCart](https://www.opencart.com/index.php?route=cms/download). Kemudian setelah selesai konfigurasi, maka anda dapat melakukan upload file website di hosting. Berikut langkah-langkah untuk melakukan instalasinya:
-- Download software xampp di https://www.apachefriends.org/download.html untuk menginstal apache, mysql, dan php sesuai kebutuhan.
-- Ekstrak file yang sudah di download di https://www.opencart.com/index.php?route=cms/download di sembarang folder (sebagai temporary     saja).
-- Pindahkan file yang sudah diekstrak tersebut ke folder htdocs (C:\xampp\htdocs)
-- Agar mudah dalam penamaan, rename folder tadi menjadi opencart
 
 # Cara Pemakaian
 [`^ kembali ke atas ^`](#)
@@ -294,16 +284,16 @@ Cara pemakaian OpenCart adalah sebagai berikut :
 - Pendapat anda tentang aplikasi web ini:
   OpenCart sebagai CMS gratis dan open source mempunyai kelebihan dan kekurangan. Adapun kelebihan dan kekurangan dari OpenCart sebagai   berikut:
   - Kelebihan:
-    1. Cara penginstalannya mudah diikuti dan dipahami.
-    2. Adanya tool backup dan restore untuk website dan database.
-    3. Multi mata uang, bisa menggunakan lebih dari satu mata uang dengan nilai konversi   antar mata uang.
-    4. Kategori bertingkat dan tidak terbatas.
-    5. Template dapat diganti dengan mudah dan tersedia template gratis dan berbayar.
+    - Cara penginstalannya mudah diikuti dan dipahami.
+    - Adanya tool backup dan restore untuk website dan database.
+    - Multi mata uang, bisa menggunakan lebih dari satu mata uang dengan nilai konversi   antar mata uang.
+    - Kategori bertingkat dan tidak terbatas.
+    - Template dapat diganti dengan mudah dan tersedia template gratis dan berbayar.
 
   - Kekurangan:
-    1. Bagi pengguna awam saat instalasi pasti mengalami kebingungan ketika harus rename config-dist menjadi config dan harus delete            folder install, tidak secara otomatis terhapus.
-    2. Pilihan theme dan modul yang sederhana, jika mau yang bagus harus membayar.
-    3. Masih susah dalam otak-atik function.
+    - Bagi pengguna awam saat instalasi pasti mengalami kebingungan ketika harus rename config-dist menjadi config dan harus delete folder install, tidak secara otomatis terhapus.
+    - Pilihan theme dan modul yang sederhana, jika mau yang bagus harus membayar.
+    - Masih susah dalam otak-atik function.
 
 - Bandingkan dengan aplikasi web lain yang sejenis
 
