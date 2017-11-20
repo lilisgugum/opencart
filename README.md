@@ -97,13 +97,53 @@ Persetujuan kebijakan syarat dan ketentuan dalam menggunakan Opencart, pilih Pro
      $ sudo service apache2 restart
      ```
     
-14. Instalasi bisa dimulai pada URL pada halaman web.
-    localhost:8080/opencart
+14. Instalasi bisa dimulai pada URL pada halaman web dengan alamat IP web server kita untuk meneruskan instalasi.
+    
+    - Instalasi tampilan awal opencart
+    
+    ![instalasi_1](https://github.com/lilisgugum/opencart/blob/master/pictures/1..jpg)
+   
+    continue untuk melanjutkan proses instalasi
+    
+    - Setelah continue, masuk ke tahap *Pre-Instalation*. Tahap ini mencakup kebutuhan instalasi yang sudah tercapai.
+       Pastikan semua telah terisi dan status sudah checklist dalam masing-masing komponen
+    
+    ![instalasi_2](https://github.com/lilisgugum/opencart/blob/master/pictures/2.Pre%20Installation.png)
     
     continue untuk melanjutkan proses instalasi
-
+    
+    - Setelah semua kebutuhan terpenuhi dan tidak ada yang missing juga tanda *x*, Selanjutnya ke tahap *Configuration*. Tahap                *Configuration* untuk database dan administration.
+    
+    ![instalasi_3](https://github.com/lilisgugum/opencart/blob/master/pictures/3.Configuration.png)
+    
+    continue untuk melanjutkan proses instalasi
+    
+    - Tahap terakhir proses instalasi adalah hapus folder install untuk keamanan, setelah itu CMS Opencart di sesuaikan dengan                 kebutuhan
+    
+    ![instalasi_4](https://github.com/lilisgugum/opencart/blob/master/pictures/4.Installation%20complete.png)
+ 
+ 
+15. Setelah proses instalasi selesai hapus direktori install untuk keamanan.
+     ```
+     $ sudo rm -rf /var/www/html/opencart/install
+     ```
+     
+    - Tampilan e-commerce opencart untuk customer sebelum di personalisasi (localhost:8080/opencart)
+    
+    ![instalasi_selesai](https://github.com/lilisgugum/opencart/blob/master/pictures/5.Your%20Store.png)
+    
+    - Tampilan halaman login admin
+    
+    ![admin](https://github.com/lilisgugum/opencart/blob/master/pictures/admin.png)
+    
+     
+     
 # Konfigurasi
 [`^ kembali ke atas ^`](#)
+
+1. Konfigurasi Batas upload file
+   untuk menentukan konfigurasi batas upload file  pada sistem Opencart yaitu sebagai berikut:
+
 
 # Maintenance
 [`^ kembali ke atas ^`](#)
