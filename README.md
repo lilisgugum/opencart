@@ -134,19 +134,105 @@ Persetujuan kebijakan syarat dan ketentuan dalam menggunakan Opencart, pilih Pro
     
     - Tampilan halaman login admin
     
-    ![admin](https://github.com/lilisgugum/opencart/blob/master/pictures/admin.png)
+    ![admin](https://github.com/lilisgugum/opencart/blob/master/pictures/admin.jpg)
     
-     
+    - Tampilan halaman admin
+    
+    ![page_admin](https://github.com/lilisgugum/opencart/blob/master/pictures/page_admin.jpg)
      
 # Konfigurasi
 [`^ kembali ke atas ^`](#)
 
 1. Konfigurasi Batas upload file
    untuk menentukan konfigurasi batas upload file  pada sistem Opencart yaitu sebagai berikut:
+   
+   - Masuk ke menu system, dan pilih sub menu setting
+   
+   ![konfigurasi_1](https://github.com/lilisgugum/opencart/blob/master/pictures/konfigurasi_1.jpg)
+    
+   
+   - Maka akan muncul tampilan store list seperti berikut, kemudian pilih action edit
+   
+   ![konfigurasi_2](https://github.com/lilisgugum/opencart/blob/master/pictures/konfigurasi_2.jpg)
+    
+   
+   - Pilih tab menu server lalu pilih bagain uploads setting sesuai kebutuhan
 
+   ![konfigurasi_3](https://github.com/lilisgugum/opencart/blob/master/pictures/konfigurasi_3.jpg)
+   ![konfigurasi_4](https://github.com/lilisgugum/opencart/blob/master/pictures/konfigurasi_4.jpg)
+    
+
+   - Pada bagian server ini dapat juga untuk mengatur security dan pengaturan umum server seperti berikut :
+     
+   ![konfigurasi_5](https://github.com/lilisgugum/opencart/blob/master/pictures/konfigurasi_5.jpg)
+   ![konfigurasi_6](https://github.com/lilisgugum/opencart/blob/master/pictures/konfigurasi_6.jpg)
+
+
+2. Konfigurasi tema baru
+   untuk mengganti tema bawaan (default) pada opencart caranya sebagai berikut:
+   
+   - Masuk ke menu extension lalu pilih submenu marketplace
+   
+   ![konfigurasi_7](https://github.com/lilisgugum/opencart/blob/master/pictures/konfigurasi_7.jpg)
+
+   
+   - Maka akan muncul tampilan extension marketplace sebagai berikut:
+   
+   ![konfigurasi_8](https://github.com/lilisgugum/opencart/blob/master/pictures/konfigurasi_8.jpg)
+   
+   
+   - Pilih theme pada filter kategori ekstension seperti gambar berikut:
+   
+   ![konfigurasi_9](https://github.com/lilisgugum/opencart/blob/master/pictures/konfigurasi_9.jpg)
+   
+   
+   - Maka akan mucul banyak pilihan tema, pilih tema sesuai kebutuhan ecommerce. hanya ada satu tema yang free, yang lainnya berbayar        semua
+   - Setelah mendapatkan tema pilih menu extensions dan klik submenu installer, lalu pilih tema yang telah kita dapatkan tadi dan klik        upload
+   
+   ![konfigurasi_10](https://github.com/lilisgugum/opencart/blob/master/pictures/konfigurasi_10.jpg)
+   
+   
+   - Langkah terakhir pilih menu extensions dan klik submenu ekstensions, install tema yang telah kita upload tadi, lalu klik action          edit, ubah menjadi enabled. dan tema selesai diganti
+   
+   ![konfigurasi_11](https://github.com/lilisgugum/opencart/blob/master/pictures/konfigurasi_11.jpg)
+   
+   Untuk menambah konfigurasi lain seperti login dengan google/ social media dukungan kurir (Indonesia),  payment gateway Indonesia dapat dilakukan dengan install modules masing-masing, lalu konfigurasi kan di menu extensions.
 
 # Maintenance
 [`^ kembali ke atas ^`](#)
+
+Maintenance pada opencart meliputi 3 bagian yaitu sebagai berikut:
+1. Backup & Restore
+Seringkali untuk kebutuhan suatu ecommerce memerlukan backup dan restore database untuk keamanan dan duplikasi data. pada CMS Opencart untuk backup dan restore caranya sebagai berikut:
+   - Login ke dalam admin toko kita
+   - Klik menu system lalu pilih maintenance an klik sub menu backup & restore
+   
+   
+   ![maintenance_1](https://github.com/lilisgugum/opencart/blob/master/pictures/maintenance_1.jpg)
+   
+   -	maka akan muncul tampilan sebagai berikut:
+   
+   ![maintenance_2](https://github.com/lilisgugum/opencart/blob/master/pictures/maintenance_2.jpg)
+   
+   - Untuk backup database pilih tab menu backup, lalu pilih tabel apa saja yang akan kita backup kemudian klik export dan database akan      terbackup dalam bentuk .sql
+   
+   ![maintenance_3](https://github.com/lilisgugum/opencart/blob/master/pictures/maintenance_3.jpg)
+   
+   -	Untuk restore dataase pilih tab menu restore, lalu pilih database dari komputer kita yang akan di import/ restore, tunggu maka kan      tertampil progress upload database seperti berikut:
+   
+   ![maintenance_4](https://github.com/lilisgugum/opencart/blob/master/pictures/maintenance_4.jpg)
+   
+   
+2. Uploads
+Bagian upload pada maintenance ini, berisi daftar-daftar file / module/ themes yang telah kita upload ke dalam sistem CMS Opencart, dimana pada halaman ini kita bisa search by filter date atau meghapus data yang telah diupload. untuk masuk ke bagian upload ini sama seperti backup & restore pilih menu system lalu pilih maintenance dan klik submenu upload. tampiannya sebagai berikut:
+
+   ![maintenance_5](https://github.com/lilisgugum/opencart/blob/master/pictures/maintenance_5.jpg)
+   
+3. Error Log
+Pesan error adalah petunjuk awal terpenting dalam memperbaiki toko online yang bermasalah. Pada umumnya, toko online yang mengalami error pasti akan menampilkan pesan di halamannya. Untuk itu kita perlu mengetahui error log terutama di toko online Opencart. untuk melihat error logs pada toko online Opencart caranya masuk ke menu setting, pilih maintenance lalu klik submenu error logs maka akan tertampil halaman error logs sebagai berikut:
+
+   ![maintenance_6](https://github.com/lilisgugum/opencart/blob/master/pictures/maintenance_6.jpg)
+   
 
 # Otomatisasi
 [`^ kembali ke atas ^`](#)
@@ -161,10 +247,47 @@ Jika kalian masih kesulitan dalam meng-install **OpenCart**, terdapat dua cara a
 [`^ kembali ke atas ^`](#)
 
 Cara pemakaian OpenCart adalah sebagai berikut :
-1. Login terlebih dahulu pada halaman admin
-2. Setelah login, akan masuk ke halaman dashboard
-3. Menu disebelah kiri adalah untuk modifikasi kebutuhan konten, seperti menu kategori, produk, tema dan lain sebagainya. 
-4. Untuk menambahkan kategori, klik menu katalog lalu akan ada sub menu kategori, pada kolom action
+1. Sebelum mengelola situs, sistem akan meminta otentikasi *user* berupa masukan *username* dan *password* untuk akses halaman admin.
+
+   ![admin_2](https://github.com/lilisgugum/opencart/blob/master/pictures/admin_2.jpeg)
+   
+2. Jika *login* berhasil, akan muncul halaman *dashboard* admin yang berisi fitur-fitur yang dapat digunakan untuk menganalisis penjualan seperti jumlah penjualan, jumlah pelanggan, jumlah permintaan per daerah dan lain sebagainya. Menu yang terletak pada sebelah kiri halaman digunakan untuk memodifikasi kebutuhan sistem, isi konten, dan laporan aktivitas yang terjadi pada sistem. seperti penjualan, pelanggan dan produk.
+
+   ![dashboard](https://github.com/lilisgugum/opencart/blob/master/pictures/dashboard.jpeg)
+   
+3. Menu *catalog* digunakan untuk mengelola konten pada situs seperti produk, kategori produk, dan *review* produk. Pada opsi ini dapat dilakukan penambahan, pengubahan dan penghapusan konten.
+
+   ![catagories](https://github.com/lilisgugum/opencart/blob/master/pictures/catagories.jpeg)
+   
+4. Menu *extensions* digunakan untuk mengatur extensi yang dibutuhkan sistem seperti metode pengiriman dan pembayaran yang dapat didukung sistem. Pada opsi ini dapat dilakukan pemasangan, pengubahan dan pencopotan ekstensi.
+
+   ![shipping](https://github.com/lilisgugum/opencart/blob/master/pictures/shipping.jpeg)
+
+5. Menu *design* digunakan untuk mengelola desain sistem yang akan digunakan seperti *layout* dan banner. Pada opsi ini dapat dilakukan penambahan, pengubahan dan penghapusan desain.
+
+   ![layouts](https://github.com/lilisgugum/opencart/blob/master/pictures/layouts.jpeg)
+
+6. Menu sales digunakan untuk memantau aktivitas jual beli pada situs seperti pamesanan dan pengembalian barang. Pada opsi ini dapat dilakukan penambahan, pengubahan dan penghapusan aktivitas jual beli. selain itu kita juga dapat memfilter data yang ingin ditampilkan.
+
+   ![orders](https://github.com/lilisgugum/opencart/blob/master/pictures/orders.jpeg)
+   
+7. Menu *customer* digunakan untuk mengelola pelanggan situs baik pelanggan individu ataupun grup pelanggan. banning pengguna dapat dilakukan pada opsi ini.
+
+   ![customers](https://github.com/lilisgugum/opencart/blob/master/pictures/customers.jpeg)
+   
+8. Menu *marketing* digunakan untuk mengelola pemasaran produk seperti kupon belanja atau informasi penawaran produk yang dikirimkan via *email*.
+
+   ![marketing](https://github.com/lilisgugum/opencart/blob/master/pictures/marketing.jpeg)
+   
+
+9. Menu *system* digunakan untuk mengelola ketentuan-ketentuan dalam sistem seperti bahasa dan nama mata uang yang digunakan.  
+
+   ![stores](https://github.com/lilisgugum/opencart/blob/master/pictures/stores.jpeg)
+
+10. Menu report digunakan untuk mengakses laporan-laporan seperti laporan penjualan, produk, pelanggan dan pemasaran.
+
+    ![report](https://github.com/lilisgugum/opencart/blob/master/pictures/report.jpeg)
+
 
 # Pembahasan
 [`^ kembali ke atas ^`](#)
