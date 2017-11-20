@@ -97,9 +97,10 @@ Persetujuan kebijakan syarat dan ketentuan dalam menggunakan Opencart, pilih Pro
      $ sudo service apache2 restart
      ```
     
-14. Instalasi bisa dimulai pada URL pada halaman web.
-    localhost:8080/opencart
-    
+14. Instalasi bisa dimulai pada URL pada halaman web dengan alamat IP web server kita untuk meneruskan instalasi.
+    ![login](https://github.com/lilisgugum/opencart/blob/master/pictures/1..jpg)
+
+   
     continue untuk melanjutkan proses instalasi
 
 # Konfigurasi
