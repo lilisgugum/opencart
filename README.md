@@ -169,7 +169,7 @@ Persetujuan kebijakan syarat dan ketentuan dalam menggunakan Opencart, pilih Pro
 
 
 2. Konfigurasi tema baru
-   untuk mengganti tema bawaan (default) pada opencart caranya sebagai berikut:
+   untuk mengganti tema bawaan (*default*) pada opencart caranya sebagai berikut:
    
    - Masuk ke menu *extension* lalu pilih submenu *marketplace*
    
@@ -295,17 +295,21 @@ Cara pemakaian OpenCart adalah sebagai berikut :
     - Pilihan theme dan modul yang sederhana, jika mau yang bagus harus membayar.
     - Masih susah dalam otak-atik function.
 
-- Bandingkan dengan aplikasi web lain yang sejenis
-  Dalam segi Fitur OpenCart vs Prestashop :
-  - Management untuk konten : Dari menu-menu didalam backend administratornya untuk mengatur kategori-kategori dan konten, OpenCart lebih mudah dipahami untuk mengelola isi konten dan mengaturnya termasuk informasi dan halaman-halaman lain yang ingin dibuat.
-  - SEO : Prestashop yang lebih unggul daripada OpenCart, terlebih sudah adanya fitur meta-title didalam default Prestashop yang mana "Judul" atau meta-title merupakan inti terpenting dalam SEO selain daripada Url.
-  - Mengelola tema : OpenCart lebih unggul dari Prestashop, banyak sekali tema di marketplace template untuk Opencart.
-  - Kapasitas module / addon : dalam hal ini kedua-duanya cukup banyak untuk kategori module extension.
+- Jika dibandingkan dengan CMS yang sejenis seperti PrestaShop, kedua CMS memiliki kelebihan dan kekurangan masing-masing.
+  - Perbandingan dari keduanya adalah sebagai berikut: OpenCart dan PrestaShop memiliki fitur yang cukup lengkap. Keduanya tergolong ringan dan bisa di-instal tanpa kesulitan di lingkungan shared hosting. Dari sisi fitur dan tampilan PrestaShop lebih unggul dibandingkan OpenCart. Contoh fitur yang hanya ada pada prestashop seperti seperti membedakan antara pemasok dan merek, adanya pengelompokan pada atribut tambahan produk, adanya tag produk, adanya fitur untuk me-retur order, adanya attachment produk (bisa untuk brosur elektronik). Dalam pendefinisian SEF URL OpenCart lebih fleksibel dibanding PrestaShop, meskipun kedua nya memberikan kebebasan dalam mendefinisikan SEF URL.  Kekurangan dari OpenCart maupun PrestaShop memiliki masalah duplikasi konten untuk menggunakannya. 
+
+  - Dalam segi Fitur OpenCart vs Prestashop :
+    - Management untuk konten : Dari menu-menu didalam backend administratornya untuk mengatur kategori-kategori dan konten, OpenCart lebih mudah dipahami untuk mengelola isi konten dan mengaturnya termasuk informasi dan halaman-halaman lain yang ingin dibuat.
+    - SEO : Prestashop yang lebih unggul daripada OpenCart, terlebih sudah adanya fitur meta-title didalam default Prestashop yang mana "Judul" atau meta-title merupakan inti terpenting dalam SEO selain daripada Url.
+    - Mengelola tema : OpenCart lebih unggul dari Prestashop, banyak sekali tema di marketplace template untuk Opencart.
+    - Kapasitas module / addon : dalam hal ini kedua-duanya cukup banyak untuk kategori module extension.
 
 
 # Referensi
 [`^ kembali ke atas ^`](#)
 1. [About OpenCart]() - OpenCart
 2. [Installing OpenCart on Ubuntu 14.04](https://fosskb.in/2016/02/06/installing-opencart-on-ubuntu-14-04/) - OpenCart 
-3. [Perbandingan OpenCart dan Prestashop](https://www.mfahmi.net/2013/07/perbandingan-opencart-dan-prestashop) - Perbandingan dengan Web Sejenis
+3. [Perbandingan OpenCart dan Prestashop](http://opensource-2009.blogspot.co.id/2009/11/pilih-mana-magento-opencart-prestashop.html) - Perbandingan OpenCart dan Prestashop
+4. [Perbandingan OpenCart dan Prestashop](https://www.mfahmi.net/2013/07/perbandingan-opencart-dan-prestashop) - Perbandingan OpenCart dan Prestashop
+
 
