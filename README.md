@@ -16,7 +16,7 @@
 - Apache Web server 2.4.7
 - PHP 5.6.5
 - MySQL 5.0+
-- RAM minimum 1024 MB
+- RAM minimal 64 Mb+
 
 #### Proses instaslasi:
 
