@@ -20,14 +20,14 @@
 
 #### Proses instaslasi:
 
-Kunjungi alamat IP web server yang telah dibuat untuk meneruskan instalasi CMS Opencart
-Persetujuan kebijakan syarat dan ketentuan dalam menggunakan Opencart, pilih Proses Instalasi:
+Kunjungi alamat IP web server yang telah dibuat untuk meneruskan instalasi CMS OpenCart
+Persetujuan kebijakan syarat dan ketentuan dalam menggunakan OpenCart, pilih Proses Instalasi:
 1.	Login ke dalam server menggunakan SSH. Jika Sistem Operasi Windows yang digunakan, bias memakai [PuTTY](http://www.putty.org/).
      ```
      $ ssh user@localhost
      ```
 
-2.	Pastikan seluruh paket dari system up-to-date, lalu install seluruh kebutuhan sisrem seperti `Apache`, `PHP`, dan `MySQL`
+2.	Pastikan seluruh paket dari system up-to-date, lalu install seluruh kebutuhan sistem seperti `Apache`, `PHP`, dan `MySQL`
      ```
      $ sudo apt-get update
      $ sudo apt-get install apache2
@@ -74,7 +74,7 @@ Persetujuan kebijakan syarat dan ketentuan dalam menggunakan Opencart, pilih Pro
      # mv admin/config-dist.php admin/config.php
      ```
 
-10. Ubah otorisasi kepemilikan ke user www-data (webserver)
+10. Ubah otorisasi kepemilikan ke *user* www-data (webserver)
      ```
      $ sudo chown -R www-data:www-data /var/www/html/opencart
      ```
@@ -103,20 +103,20 @@ Persetujuan kebijakan syarat dan ketentuan dalam menggunakan Opencart, pilih Pro
     
     ![instalasi_1](https://github.com/lilisgugum/opencart/blob/master/pictures/1..jpg)
    
-    continue untuk melanjutkan proses instalasi
+    *Continue* untuk melanjutkan proses instalasi
     
     - Setelah continue, masuk ke tahap *Pre-Instalation*. Tahap ini mencakup kebutuhan instalasi yang sudah tercapai.
        Pastikan semua telah terisi dan status sudah checklist dalam masing-masing komponen
     
     ![instalasi_2](https://github.com/lilisgugum/opencart/blob/master/pictures/2.Pre%20Installation.png)
     
-    continue untuk melanjutkan proses instalasi
+    *Continue* untuk melanjutkan proses instalasi
     
     - Setelah semua kebutuhan terpenuhi dan tidak ada yang missing juga tanda *x*, Selanjutnya ke tahap *Configuration*. Tahap                *Configuration* untuk database dan administration.
     
     ![instalasi_3](https://github.com/lilisgugum/opencart/blob/master/pictures/3.Configuration.png)
     
-    continue untuk melanjutkan proses instalasi
+    *Continue* untuk melanjutkan proses instalasi
     
     - Tahap terakhir proses instalasi adalah hapus folder install untuk keamanan, setelah itu CMS Opencart di sesuaikan dengan                 kebutuhan
     
@@ -186,7 +186,7 @@ Persetujuan kebijakan syarat dan ketentuan dalam menggunakan Opencart, pilih Pro
    ![konfigurasi_9](https://github.com/lilisgugum/opencart/blob/master/pictures/konfigurasi_9.jpg)
    
    
-   - Maka akan mucul banyak pilihan tema, pilih tema sesuai kebutuhan ecommerce. hanya ada satu tema yang free, yang lainnya berbayar        semua
+   - Maka akan muncul banyak pilihan tema, pilih tema sesuai kebutuhan ecommerce. hanya ada satu tema yang free, yang lainnya berbayar        semua
    - Setelah mendapatkan tema pilih menu extensions dan klik submenu *installer*, lalu pilih tema yang telah kita dapatkan tadi dan klik      upload
    
    ![konfigurasi_10](https://github.com/lilisgugum/opencart/blob/master/pictures/konfigurasi_10.jpg)
@@ -201,9 +201,9 @@ Persetujuan kebijakan syarat dan ketentuan dalam menggunakan Opencart, pilih Pro
 # Maintenance
 [`^ kembali ke atas ^`](#)
 
-Maintenance pada opencart meliputi 3 bagian yaitu sebagai berikut:
+Maintenance pada OpenCart meliputi 3 bagian yaitu sebagai berikut:
 1. Backup & Restore
-Seringkali untuk kebutuhan suatu ecommerce memerlukan backup dan restore database untuk keamanan dan duplikasi data. pada CMS OpenCart untuk *backup* dan *restore* caranya sebagai berikut:
+   Seringkali untuk kebutuhan suatu ecommerce memerlukan backup dan restore database untuk keamanan dan duplikasi data. pada CMS OpenCart untuk *backup* dan *restore* caranya sebagai berikut:
    - *Login* ke dalam admin toko kita
    - Klik menu *system* lalu pilih *maintenance* dan klik sub menu *backup & restore*
       
@@ -223,12 +223,12 @@ Seringkali untuk kebutuhan suatu ecommerce memerlukan backup dan restore databas
    
    
 2. *Uploads*
-Bagian upload pada maintenance ini, berisi daftar-daftar file / module/ *themes* yang telah kita upload ke dalam sistem CMS OpenCart, dimana pada halaman ini kita bisa *search by filter date* atau menghapus data yang telah di upload. Untuk masuk ke bagian upload ini sama seperti *backup & restore* pilih menu *system* lalu pilih *maintenance* dan klik submenu *upload*. tampiannya sebagai berikut:
+   Bagian upload pada maintenance ini, berisi daftar-daftar file / module/ *themes* yang telah kita upload ke dalam sistem CMS OpenCart, dimana pada halaman ini kita bisa *search by filter date* atau menghapus data yang telah di upload. Untuk masuk ke bagian upload ini sama seperti *backup & restore* pilih menu *system* lalu pilih *maintenance* dan klik submenu *upload*. tampiannya sebagai berikut:
 
    ![maintenance_5](https://github.com/lilisgugum/opencart/blob/master/pictures/maintenance_5.jpg)
    
 3. *Error Log*
-Pesan *error* adalah petunjuk awal terpenting dalam memperbaiki toko online yang bermasalah. Pada umumnya, toko online yang mengalami *error* pasti akan menampilkan pesan di halamannya. Untuk itu kita perlu mengetahui *error log* terutama di toko online OpenCart. Untuk melihat *error logs* pada toko online OpenCart caranya masuk ke menu *setting*, pilih *maintenance* lalu klik submenu *error logs* maka akan tertampil halaman *error logs* sebagai berikut:
+   Pesan *error* adalah petunjuk awal terpenting dalam memperbaiki toko online yang bermasalah. Pada umumnya, toko online yang mengalami *error* pasti akan menampilkan pesan di halamannya. Untuk itu kita perlu mengetahui *error log* terutama di toko online OpenCart. Untuk melihat *error logs* pada toko online OpenCart caranya masuk ke menu *setting*, pilih *maintenance* lalu klik submenu *error logs* maka akan tertampil halaman *error logs* sebagai berikut:
 
    ![maintenance_6](https://github.com/lilisgugum/opencart/blob/master/pictures/maintenance_6.jpg)
    
